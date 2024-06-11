@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>问卷调查 – 牛马有限公司</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     <header>
+        <h1>牛马有限公司</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <!-- 其他导航链接 -->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="survey">
+            <h2>问卷调查</h2>
+            <form id="surveyForm">
+                <label for="name">姓名:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">邮箱:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <!-- 其他问题 -->
+                
+                <button type="submit">提交</button>
+            </form>
+            
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="scripts.js"></script>
+</body>

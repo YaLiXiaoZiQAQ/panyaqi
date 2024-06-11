@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>用户登录 – 牛马有限公司</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     <header>
+        <h1>牛马有限公司</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <!-- 其他导航链接 -->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="login">
+            <h2>用户登录</h2>
+            <form id="loginForm">
+                <label for="loginUsername">用户名:</label>
+                <input type="text" id="loginUsername" name="username" required>
+                <button type="submit">登录</button>
+                <label for="loginPassword">密码:</label>
+                <input type="password" id="loginPassword" name="password" required>
+                
+                <button type="submit">登录</button>
+            </form>
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
